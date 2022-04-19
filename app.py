@@ -7,7 +7,7 @@ from sklearn.ensemble import RandomForestRegressor
 from prediction import get_prediction
 from keras.models import load_model
 
-model = load_model(r'Solutions/Model/Optimal-Weights-008--71.51781.hdf5')
+model = load_model(r'Solutions/Model/model.hdf5')
 
 st.set_page_config(page_title="DMSP Particle Precipitate Prediction",
                    page_icon="🚧", layout="wide")
