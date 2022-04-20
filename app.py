@@ -37,7 +37,7 @@ def main():
 
         pred = get_prediction(data=data, model=model)
 
-        st.write(f"The predicted survival of patient is:  {pred}")
+        st.write(f"The predicted total energy flux of DSE Particle is:  {pred}")
 
 if __name__ == '__main__':
     main()

@@ -9,7 +9,7 @@ def get_prediction(data,model):
     """
     result = 0.0
     result = model.predict(data)
-    if result > 0.5:
-        result = 1.0
+    #if result > 0.5:
+    #    result = 1.0
     
     return result
