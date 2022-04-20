@@ -12,4 +12,4 @@ def get_prediction(data,model):
     #if result > 0.5:
     #    result = 1.0
     
-    return result
+    return result[0][0]
